@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+:root{
+  --color-pink: #FF0068;
+  --color-purple: #9000FF;
+  --color-blue: #3406FF;
+}
+
+.link:hover{
+  scale: 120%;
+ 
+  box-shadow: 0px 0px 4px 0px white;
+}
+
+ .close {
+   /* height: 100px;
+   width: 100px; */
+   scale: 2.4;
+   border-radius: 50%;
+   padding: 0.2px;
+   text-align: center;
+   transition: all 0.2s ease-in-out;
+   color: white;
+ }
+
+ .close:hover{
+  scale: 2.5;
+ }
+
+ .theme-icon {
+   font-size: 2.5rem;
+   color: white;
+   padding: 4px;
+   border-radius: 50%;
+   box-shadow: 0px 0px 8px 0px white;
+
+ }
+
+ .purple{
+  background: rgb(0, 0, 0);
+    background: linear-gradient(141deg, rgba(0, 0, 0, 1) 0%, rgba(92, 0, 135, 1) 100%);
+    
+ }
+
+ .moon{
+  color:rgb(36, 105, 255);
+ }
+
+ .sun{
+  color:rgb(127, 0, 185);
+ }
+
+ .purpleList{
+  border-bottom: 2px solid rgb(127, 0, 185);
+  color: black;
+ }
+
+ @media(max-width:600px){
+  .logo-container{
+    height:6rem;
+    width:11rem;
+  }
+    .logo-container img{
+      width: 90%;
+      height: 50%;
+      object-fit: contain;
+    }
+ }
+
+ h3{
+  font-weight:400;
+  font-size:1.2rem;
+ }
+
+ .booktype{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width:100vw;
+  gap:2rem;
+  padding:2rem 0rem;
+ }
+
+ .booktype h3{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height:3rem;
+  width:10rem;
+  padding:0.25rem;
+  border-radius:1rem;
+  cursor: pointer;
+  transition:all 0.2s ease-in-out;
+  background-color:rgba(26, 20, 99, 0.849);
+  box-shadow: 0px 0px 8px black;
+ }
+
+ .book {
+   height: 100vh;
+   width: 100vw;
+   background: rgb(3, 0, 2);
+   background: linear-gradient(141deg, rgba(3, 0, 2, 1) 5%, rgba(1, 55, 168, 1) 83%);
+   color: white;
+ }
+
+ .purple_booktype{
+
+  background: rgb(0, 0, 0);
+    background: linear-gradient(141deg, rgba(0, 0, 0, 1) 0%, rgba(92, 0, 135, 1) 100%);
+ }
+
+ .booktype h3:hover{
+  background-color:transparent;
+  box-shadow: 0px 0px 6px 1px white;
+ }
+
+ .purple_menu{
+  background-color: #3e0569;
+ }
+
+ .books{
+  
+  width:100vw;
+  display: flex;
+flex-wrap: wrap;
+box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+ padding:2rem;
+ 
+  gap:3rem;
+ }
+
+ 
+
+ @media (max-width:500px) {
+  
+    .booktype {
+      background-color: red;
+        display: none;
+       
+      }
+  
+ }
+ 
+._book{
+height:20.6rem;
+width:15rem;
+background-color:#3e0569;
+border-radius: 0.5rem;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+position: relative;
+filter:brightness(80%);
+transition: all 0.2s ease-in-out;
+cursor: pointer;
+}
+
+.blue_book{
+  background-color:#1e029e;
+}
+
+._book:hover{
+  scale:1.1;
+  z-index:2;
+  filter: brightness(105%);
+}
+
+.card-top{
+  flex:2;
+}
+
+.card-top img{
+  width:100%;
+
+  object-fit: contain;
+}
+
+.card-bottom{
+padding: 0.5rem;
+flex:1;
+}
+
+h2{
+  font-size: 1rem;
+}
+
+.card-btn{
+  outline:none;
+  border: none;
+  padding:0.2rem;
+  border-radius: 0.2rem;
+  position: absolute;
+  left:36%;
+  bottom:0.8rem;
+  display: block;
+  text-align: center;
+  background-color: white;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  color:black;
+  cursor:pointer;
+}
